@@ -1,0 +1,65 @@
+
+.title{
+    font-family: 'Croissant One', cursive;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+span{
+    color: rgb(240, 125, 9);
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+p{  
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+}
+
+div{
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+div span{
+    font-size: 2rem;
+    color: #022155;
+}
+
+footer {
+    text-align: right;
+    color: midnightblue;
+  }
+
+@media(min-width:680px){
+    .title{
+        font-size: 5rem;
+    }
+    img{
+        float: left;
+        width: 300px;
+    }
+    div{
+        display: inline-block;
+        width: 40%;
+        margin: 20px;
+    }
+    footer{
+        display: block;
+        position: relative;
+        top: 50px;
+        left: 50%;
+    }
+    
+}
+    
+
+    
